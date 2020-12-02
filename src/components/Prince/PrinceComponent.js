@@ -15,13 +15,11 @@ class PrinceComponent extends Component {
                 for (const cinderella of CinderellasArr) {
                     if (cinderella.footSize === this.shoeSize) {
                         this.content =  `Happy life together ${this.name} and ${cinderella.name}`
-                        // break;
-                        return this.content
                     }
                 }
 
             }
-            return this.content
+            // return this.content
         }
 
         let prince = new Prince('Rostyslav', 20, 35);
